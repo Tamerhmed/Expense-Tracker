@@ -4,7 +4,7 @@
 import { db } from '@/lib/db';
 import { Transaction } from "@/types/Transaction";
 import { auth } from '@clerk/nextjs/server';
-import { error } from "console";
+
 
 async function getTransactions(): Promise<{transactions?:Transaction[], error?:string}> {
 

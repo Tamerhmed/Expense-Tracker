@@ -1,9 +1,7 @@
 'use client';
-
 import deleteTransaction from '@/actions/deleteTransaction';
 import { addCommas } from '@/lib/utils';
 import { Transaction } from '@/types/Transaction';
-import React from 'react';
 import { toast } from 'react-toastify';
 
 export default function TransactionItem({
